@@ -1,0 +1,345 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: black;
+}
+.header-section {
+  background-image: url(img/bg.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 600px;
+  position: relative;
+  border-radius: 12px;
+  margin: 1rem 2rem;
+}
+
+.container {
+  position: sticky;
+  top: 0;
+  display: flex;
+  align-items: center;
+  padding-top: 1rem;
+  padding-bottom: 0.5rem;
+  backdrop-filter: blur(2px);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.171);
+}
+.line {
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.171);
+}
+.nav-left {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.nav-logo {
+  width: 113.92px;
+  margin-right: 7.5rem;
+  margin-left: 15px;
+}
+.nav-button {
+  background: rgba(255, 0, 29, 1);
+  color: white;
+  padding: 10px 10px;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  margin: ;
+}
+.nav-button i {
+  margin-right: 0.5rem;
+}
+.nav-right-container {
+  margin-left: auto;
+}
+.nav-menu {
+  display: flex;
+  flex-wrap: wrap;
+}
+.nav-menu li {
+  list-style: none;
+  margin-right: 2rem;
+}
+.nav-menu li a {
+  text-decoration: none;
+  color: white;
+}
+.nav-menu li a:hover {
+  background-color: rgba(170, 221, 236, 0.281);
+  padding: 10px 15px;
+  border-radius: 20px;
+}
+.hero-section {
+  position: absolute;
+  top: 60%;
+  left: 24%;
+  transform: translate(-50%, -50%);
+}
+.hero-section p {
+  font-size: 4rem;
+  margin-bottom: 2rem;
+  color: white;
+}
+.hero-section button {
+  padding: 10px 16px;
+  margin-right: 2rem;
+  border-radius: 12px;
+  border: none;
+}
+.header-section button:nth-of-type(1) {
+  background-color: red;
+  color: white;
+  padding: 17px 17px;
+}
+.header-section button:nth-of-type(2) {
+  background-color: transparent;
+  border: 1px solid gray;
+  color: white;
+  padding: 17px 22px;
+  margin-left: 50px;
+  position: absolute;
+}
+.hero-section button img {
+
+ position: absolute;
+ margin-right: 5px;
+  width: 22px;
+  border-radius: 3px;
+  background-color: black;
+}
+.hero-section button span {
+margin-right: 10px;
+}
+.card {
+  background: rgba(30, 30, 30, 1);
+  border-radius: 20px;
+  display: flex;
+  width: 410px;
+  height: 224px;
+  margin: 20px;
+  position: relative;
+}
+.card:hover {
+  background-color: rgb(7, 182, 212);
+}
+#card-red:hover {
+  background-color: rgb(7, 182, 212);
+}
+.car-text {
+  padding: 1rem;
+}
+.car-text p {
+  color: white;
+  font-size: 20px;
+}
+.car-text h1 {
+  font-size: 1.5rem;
+  color: white;
+  margin-top: 74px;
+}
+.color-text {
+  color: white;
+  background-color: rgba(255, 0, 29, 1);
+  padding: 5px 10px;
+  border-radius: 15px;
+  margin-left: 300px;
+  margin-top: 30px;
+  display: inline-block;
+  position: absolute;
+  font-size: 11px;
+}
+
+.car-image {
+  position: absolute;
+}
+.car-img img {
+  width: 172px;
+  border-radius: 25px;
+  margin-left: 237px;
+  margin-top: 65px;
+}
+
+.container-car{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+/*  car-selected-section */
+.car-selected-header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.car-selected-header h1 {
+   margin-left: 80px;
+  margin-top: 40px;
+  margin-bottom: 20px;
+  font-size: 40px;
+  display: inline-block;
+}
+
+.car-selected-header i {
+  margin-right: 80px;
+  margin-top: 40px;
+  margin-bottom: 20px;
+  font-size: 25px;
+  display: inline-block;
+  color: rgba(92, 92, 92, 1);
+}
+
+.car-selected-header i:hover {
+  background-color: rgba(255, 0, 29, 1);
+  padding: 5px 10px;
+  border-radius: 30px;
+  color: white;
+
+
+}
+
+.car-selected-section {
+  background-color:rgba(255, 255, 255, 1);
+  border-radius: 12px;
+  margin: 1rem 2rem;
+  
+}
+
+.car-selected-container {
+  display: flex;
+  margin-left: 50px;
+ 
+}
+.color-text2 {
+  color: white;
+  background-color:rgba(20, 20, 20, 1);
+  padding: 5px 10px;
+  border-radius: 15px;
+  margin-left: 190px;
+  margin-top: 18px;
+  display: inline-block;
+  position: absolute;
+  font-size: 11px;
+}
+
+.car-selected-row {
+  margin: 20px;
+}
+
+.car-text2 a {
+  text-decoration: none;
+  color: black;
+  margin-top: 25px;
+  display: inline-block;
+  font-size: 10px;
+}
+.car-text2 a i {
+  margin-left: 70px;
+}
+/* <!-- only icon section start --> */
+
+.only-icon {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 40px 20px;
+  background: rgba(245, 245, 245, 1);
+  border-radius: 15px;
+  padding: 20px;
+}
+.icon {
+  background: rgba(255, 255, 255, 1);
+  border-radius: 15px;
+  padding: 20px;
+  width: 272px;
+  height: 61px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.icon a {
+  text-decoration: none;
+  color: black;
+}
+.icon a i {
+ font-size: 18px;
+  margin-right: 05px;
+  
+}
+.fa-vk{
+color: rgba(0, 119, 255, 1);
+}
+.fa-instagram{
+  color: rgba(0, 1, 0, 1);
+}
+.fa-youtube {
+  color: rgba(255, 0, 0, 1);
+}
+
+/* footer-section start */
+.footer-section {
+  background-color:rgba(255, 0, 29, 1);
+  border-radius: 12px;
+  margin: 1rem 2rem;
+}
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 40px 20px;
+  color: white;
+}
+.row-icon {
+ padding: 30px;
+}
+.row-icon h2 {
+  margin-bottom: 20px;
+  font-size: 35px;
+  color: rgba(255, 255, 255, 1);
+}
+.row-icon p {
+  font-size: 22px;
+margin-bottom: 05px;
+  color: rgba(255, 255, 255, 1);
+}
+
+.footer-text {
+
+ margin-top: 30px;
+}
+.footer-text img {
+  width: 50px;
+  margin-bottom: 30px;
+}
+.footer-text h4 {
+  margin-bottom: 20px;
+  font-size: 20px;
+  color: rgba(255, 255, 255, 1);
+}
+.footer-text p {
+  font-size: 14px;
+  color: rgba(255, 255, 255, 1);
+
+}
+.footer-button{
+  margin-top:120px;
+}
+.footer-button button:nth-of-type(1) {
+  background-color: rgba(255, 255, 255, 1);
+  color: rgba(20, 20, 20, 1);
+  padding: 10px 15px;
+  border-radius: 10px;
+  margin-right: 10px;
+}
+.footer-button button:nth-of-type(2) {
+  background-color:rgba(255, 0, 29, 1);
+  color: rgba(255, 255, 255, 1);
+  padding: 10px 15px;
+  border-radius: 10px;
+  margin-right: 10px;
+  border: 2px solid rgba(255, 255, 255, 0.5)
+}
